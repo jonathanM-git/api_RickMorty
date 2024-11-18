@@ -17,6 +17,3 @@
     });
     
 </script>
-<style scoped lang="scss">
-@import '/src/assets/HomePage.scss'; 
-</style>
