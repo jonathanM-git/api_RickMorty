@@ -1,0 +1,27 @@
+$bgColor: #0000ff;
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/public/img/Fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.title-container{
+    font-size: 2rem; /* Aumenta el tamaño del título */
+    color: white;
+    text-align: center;
+    margin-bottom: 40px; /* Mayor espacio abajo */
+}
+main{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+@import "./HomePage.scss";
+@import "./characterBoxComponent.scss";
+@import "./SingleEpisodePage.scss";
+@import "./SingleCharacterPage.scss";
